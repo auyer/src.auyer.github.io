@@ -1,0 +1,4 @@
+baseURL = "http://rcpassos.me/"
+languageCode = "en-us"
+title = 'Rafael "Auyer" Passos'
+theme = "base16"
