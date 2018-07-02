@@ -1,4 +1,5 @@
 baseURL = "http://rcpassos.me/"
 languageCode = "en-us"
-title = 'Rafael "Auyer" Passos'
+title = 'Rafael Passos'
 theme = "base16"
+publishDir = "publish"

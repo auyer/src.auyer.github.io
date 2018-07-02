@@ -1,3 +1,7 @@
 [submodule "themes/base16"]
 	path = themes/base16
 	url = https://github.com/htdvisser/hugo-base16-theme.git
+[submodule "publish"]
+	path = publish
+	url = https://github.com/auyer/auyer.github.io
+	branch = master
