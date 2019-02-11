@@ -1,5 +1,38 @@
-baseURL = "http://rcpassos.me/"
+baseurl = "/"
 languageCode = "en-us"
+author = 'Rafael Passos @Auyer'
 title = 'Rafael Passos'
-theme = "base16"
+theme = "hello-friend"
+paginate = 5
 publishDir = "publish"
+googleAnalytics = "UA-122073247-1" 
+
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # "light" or "dark"
+  defaultTheme = "dark"
+
+[languages]
+  [languages.en]
+    title = "Rafael Passos @Auyer"
+    # subtitle = "A Discord multi-bot capable of moving users quickly"
+    keywords = "Auyer, Developer, Scientist, Machine Learning"
+    copyright = ""
+    writtenBy = "Written by Auyer"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Auyer"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
